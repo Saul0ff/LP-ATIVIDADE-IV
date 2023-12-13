@@ -46,10 +46,10 @@ int main(){
         printf("Digite o nome do cargo: ");
         gets(funcionario[i].cargo);
 
-        printf("%dª funcionário: ", j + 1);
+        printf("%dÂª funcionÃ¡rio: ", j + 1);
         gets(funcionario[i].nome);
 
-        printf("Digite qual é o salário: ");
+        printf("Digite qual Ã© o salÃ¡rio: ");
         scanf("%f", &funcionario[i].salario);
 
         fflush(stdin);
@@ -58,6 +58,6 @@ int main(){
     
     mediaProgramador = mediaSalarioProgramador(funcionario, cargoProgramador);
 
-    printf("Média salario programadores: %.2f\n", mediaProgramador);
+    printf("MÃ©dia salario programadores: %.2f\n", mediaProgramador);
 }
 
